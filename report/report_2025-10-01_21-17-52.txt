@@ -1,0 +1,51 @@
+============================================================
+  LIBRARY MANAGEMENT SYSTEM - SUMMARY REPORT
+============================================================
+Generated At : 2025-10-01 21:17:52
+Encoding     : UTF-8
+Data Type    : int / float / string (fixed length)
+------------------------------------------------------------
+BOOKS (Active)
+------------------------------------------------------------
+ID    Title                Author               Publisher            Year   Total  Avail  Price   
+------------------------------------------------------------
+1     BOOK01               New                  Newza                2025   20     20     60.00   
+
+Total Book Records : 2
+Active Books       : 1
+Deleted Books      : 1
+Total Copies       : 20
+Available Copies   : 20
+------------------------------------------------------------
+
+MEMBERS (Active)
+------------------------------------------------------------
+ID    Full Name            Address              Phone        Email                          Year  
+------------------------------------------------------------
+1     Pithichai nainaras   a;sdjap;             0135946464   a;sdj@gmail.com                2025  
+
+Total Member Records : 2
+Active Members       : 1
+Deleted Members      : 1
+------------------------------------------------------------
+
+BORROWS (All)
+------------------------------------------------------------
+BorrowID  MemberID BookID   BorrowDate DueDate    ReturnDate Status  
+------------------------------------------------------------
+1         1        1        20251021   20251021   25551220   Returned
+2         1        1        20251220   25551222   25561212   Returned
+
+Total Borrow Records : 2
+Currently Borrowed   : 0
+Returned             : 2
+------------------------------------------------------------
+
+SUMMARY
+------------------------------------------------------------
+- Active Books            : 1
+- Active Members          : 1
+- Books Currently Borrowed: 0
+- Copies Available        : 20
+
+============================================================
