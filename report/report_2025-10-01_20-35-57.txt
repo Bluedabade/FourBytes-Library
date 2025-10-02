@@ -1,9 +1,0 @@
-===========================================================
-  LIBRARY MANAGEMENT SYSTEM - SUMMARY REPORT
-===========================================================
-Generated At : 2025-10-01 20:35:57
-Encoding     : UTF-8
-Data Type    : int / float / string (fixed length)
------------------------------------------------------------
-
-Books/Members/Borrows summaries can be added here...
